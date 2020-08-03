@@ -316,6 +316,7 @@ export const GooglePhoto = ({
           <div style={wrapperImageStyle}>
             {src.map((source, index) => (
               <img
+                arial-label="123"
                 key={index}
                 src={source.src}
                 alt={source.alt}
